@@ -21,7 +21,8 @@ CREATE TABLE City
 CREATE TABLE likes (rating INTEGER) AS EDGE;
 
 
--- Insert data into node tables. Inserting into a node table is same as inserting into a regular table
+/* Insert data into node tables. 
+Inserting into a node table is same as inserting into a regular table */
 INSERT INTO Person VALUES (1,'John');
 INSERT INTO Person VALUES (2,'Mary');
 INSERT INTO City VALUES (1,'Bellevue','wa');
@@ -30,7 +31,7 @@ GO
 select * from Person
 select * from City
 select * from Likes
-GO
+GO 
 
 
 /* NEW from SQL Server 2019 */
