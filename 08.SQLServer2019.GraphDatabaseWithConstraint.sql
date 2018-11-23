@@ -57,7 +57,7 @@ INSERT INTO likes VALUES ((SELECT $node_id FROM Person WHERE id = 3),
 
 
 -- Find City that John likes
-SELECT City.name
+SELECT City.name, *
 FROM Person, likes, City
 WHERE MATCH (Person-(likes)->City)
 AND Person.name = 'John';
