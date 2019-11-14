@@ -17,7 +17,7 @@ INSERT INTO myData VALUES
 	(5, 'Luca')
 GO
 
-SELECT * FROM dbTest
+SELECT * FROM myData
 GO
 
 /*
